@@ -16,17 +16,14 @@ By using this program, the user agrees not to exploit this bot for any illegal a
 Before running this program, you need to download and install Android Platform Tools. You can get them from the official Android website: https://developer.android.com/tools/releases/platform-tools
 Make sure to extract and place them in a known location. Connect PATHS in your computer.
 
-You need to install Appium into your computer. You can do so by opening the program "appium installer" or visit Appium official website for more information. 
+You need to install Appium into your computer. You can visit Appium official website for more information https://appium.io/docs/en/latest/ , you need node.js for installation first https://nodejs.org/en 
 
-You need to install Android studio and create paths: "ANDROID_HOME" and "ANDROID_SDK_ROOT" with this path way "C:\Users\user\AppData\Local\Android\Sdk", also add to PATH "C:\Users\domin\AppData\Local\Android\Sdk\platform-tools" and "C:\Users\domin\AppData\Local\Android\Sdk\build-tools"...
-
-This program relies on several Python libraries. They should be installed automatically after opening the bot, if not install them using the following command in command prompt: pip install -r requirements.txt
-
+You need to install Android studio and create paths: "ANDROID_HOME" and "ANDROID_SDK_ROOT" with this path way "C:\Users\user\AppData\Local\Android\Sdk", also add to PATH "C:\Users\domin\AppData\Local\Android\Sdk\platform-tools" and "C:\Users\domin\AppData\Local\Android\Sdk\build-tools".
 
 *HOW TO RUN THIS BOT
 
 Before opening the bot make sure that you have running Appium server, you can do so simply by typing "appium" into the command prompt. WITHOUT THIS THE BOT WON'T WORK!!
-Make sure that you have all the devices connected correctly by typing "adb devices" into command prompt. If the the command prompt shows example "EX21DF4S device", then you have active device connected and can be used.
+Make sure that you have all the devices connected correctly by typing "adb devices" into command prompt. If the the command prompt shows example "EX21DF4S5 device", then you have active device connected and can be used.
 
 
 *HOW TO SETUP THIS BOT
