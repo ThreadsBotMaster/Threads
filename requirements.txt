@@ -1,6 +1,0 @@
-appium-python-client
-pandas
-openai
-cryptography
-tkinter
-requests
