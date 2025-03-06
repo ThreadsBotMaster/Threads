@@ -18,6 +18,8 @@ Make sure to extract and place them in a known location. Connect PATHS in your c
 
 You need to install Appium into your computer. You can do so by opening the program "appium installer" or visit Appium official website for more information. 
 
+You need to install Android studio and create paths: "ANDROID_HOME" and "ANDROID_SDK_ROOT" with this path way "C:\Users\user\AppData\Local\Android\Sdk", also add to PATH "C:\Users\domin\AppData\Local\Android\Sdk\platform-tools" and "C:\Users\domin\AppData\Local\Android\Sdk\build-tools"...
+
 This program relies on several Python libraries. They should be installed automatically after opening the bot, if not install them using the following command in command prompt: pip install -r requirements.txt
 
 
